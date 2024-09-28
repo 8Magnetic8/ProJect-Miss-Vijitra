@@ -62,42 +62,49 @@
             formPetToolStripMenuItem.Name = "formPetToolStripMenuItem";
             formPetToolStripMenuItem.Size = new Size(325, 34);
             formPetToolStripMenuItem.Text = "ข้อมูลสัตว์";
+            formPetToolStripMenuItem.Click += formPetToolStripMenuItem_Click;
             // 
             // medicineToolStripMenuItem
             // 
             medicineToolStripMenuItem.Name = "medicineToolStripMenuItem";
             medicineToolStripMenuItem.Size = new Size(325, 34);
             medicineToolStripMenuItem.Text = "ยา";
+            medicineToolStripMenuItem.Click += medicineToolStripMenuItem_Click;
             // 
             // medicineTypeToolStripMenuItem
             // 
             medicineTypeToolStripMenuItem.Name = "medicineTypeToolStripMenuItem";
             medicineTypeToolStripMenuItem.Size = new Size(325, 34);
             medicineTypeToolStripMenuItem.Text = "ประเภทยา";
+            medicineTypeToolStripMenuItem.Click += medicineTypeToolStripMenuItem_Click;
             // 
             // typePetToolStripMenuItem
             // 
             typePetToolStripMenuItem.Name = "typePetToolStripMenuItem";
             typePetToolStripMenuItem.Size = new Size(325, 34);
             typePetToolStripMenuItem.Text = "ประเภทสัตว์";
+            typePetToolStripMenuItem.Click += typePetToolStripMenuItem_Click;
             // 
             // dataAllToolStripMenuItem1
             // 
             dataAllToolStripMenuItem1.Name = "dataAllToolStripMenuItem1";
             dataAllToolStripMenuItem1.Size = new Size(325, 34);
             dataAllToolStripMenuItem1.Text = "ข้อมูลลูกค้าและพนักงาน";
+            dataAllToolStripMenuItem1.Click += dataAllToolStripMenuItem1_Click;
             // 
             // รหสวธการรกษาToolStripMenuItem
             // 
             รหสวธการรกษาToolStripMenuItem.Name = "รหสวธการรกษาToolStripMenuItem";
             รหสวธการรกษาToolStripMenuItem.Size = new Size(325, 34);
             รหสวธการรกษาToolStripMenuItem.Text = "วิธีการรักษา";
+            รหสวธการรกษาToolStripMenuItem.Click += รหสวธการรกษาToolStripMenuItem_Click;
             // 
             // การรกษาToolStripMenuItem
             // 
             การรกษาToolStripMenuItem.Name = "การรกษาToolStripMenuItem";
             การรกษาToolStripMenuItem.Size = new Size(325, 34);
             การรกษาToolStripMenuItem.Text = "การรักษา";
+            การรกษาToolStripMenuItem.Click += การรกษาToolStripMenuItem_Click;
             // 
             // MenuMain
             // 

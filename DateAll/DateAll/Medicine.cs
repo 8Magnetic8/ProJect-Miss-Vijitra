@@ -25,7 +25,8 @@ namespace Project1
 
         public void connectDB()
         {
-            conn.ConnectionString = "Data Source=LAPTOP-CPNT5JOF;Initial Catalog=petClinic;Integrated Security=True;";
+            //หอ
+            conn.ConnectionString = "Data Source=DESKTOP-Q7DI747\\SQLEXPRESS;Initial Catalog=petClinic;Integrated Security=True;";
             conn.Open();
             cmd.Connection = conn;
             getMedicine();
