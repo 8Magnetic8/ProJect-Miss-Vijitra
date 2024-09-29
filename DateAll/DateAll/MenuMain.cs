@@ -21,8 +21,8 @@ namespace DateAll
 
         private void formPetToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //FormPet form = new FormPet();
-            //form.Show();
+            Pet form = new Pet();
+            form.Show();
         }
 
         private void dataAllToolStripMenuItem1_Click(object sender, EventArgs e)

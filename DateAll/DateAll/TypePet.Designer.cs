@@ -1,4 +1,7 @@
-﻿namespace Pet
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Pet
 {
     partial class TypePet
     {
@@ -28,171 +31,172 @@
         /// </summary>
         private void InitializeComponent()
         {
-            bClose = new Button();
-            bAdd = new Button();
-            bDelete = new Button();
-            bUpdate = new Button();
-            binsert = new Button();
-            bNew = new Button();
-            dataGridView1 = new DataGridView();
-            bShow = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            PetType = new TextBox();
-            label3 = new Label();
-            Petbreeds = new TextBox();
-            comboBox1 = new ComboBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.bClose = new System.Windows.Forms.Button();
+            this.bAdd = new System.Windows.Forms.Button();
+            this.bDelete = new System.Windows.Forms.Button();
+            this.bUpdate = new System.Windows.Forms.Button();
+            this.binsert = new System.Windows.Forms.Button();
+            this.bNew = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.bShow = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.PetTypeName = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.PetBreedID = new System.Windows.Forms.TextBox();
+            this.PetTypeID = new System.Windows.Forms.TextBox();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.SuspendLayout();
             // 
             // bClose
             // 
-            bClose.Location = new Point(699, 449);
-            bClose.Name = "bClose";
-            bClose.Size = new Size(75, 23);
-            bClose.TabIndex = 24;
-            bClose.Text = "Close";
-            bClose.UseVisualStyleBackColor = true;
-            bClose.Click += bClose_Click;
+            this.bClose.Location = new System.Drawing.Point(599, 389);
+            this.bClose.Name = "bClose";
+            this.bClose.Size = new System.Drawing.Size(64, 20);
+            this.bClose.TabIndex = 24;
+            this.bClose.Text = "Close";
+            this.bClose.UseVisualStyleBackColor = true;
             // 
             // bAdd
             // 
-            bAdd.Location = new Point(294, 449);
-            bAdd.Name = "bAdd";
-            bAdd.Size = new Size(75, 23);
-            bAdd.TabIndex = 23;
-            bAdd.Text = "Add";
-            bAdd.UseVisualStyleBackColor = true;
-            bAdd.Click += bAdd_Click;
+            this.bAdd.Location = new System.Drawing.Point(252, 389);
+            this.bAdd.Name = "bAdd";
+            this.bAdd.Size = new System.Drawing.Size(64, 20);
+            this.bAdd.TabIndex = 23;
+            this.bAdd.Text = "Add";
+            this.bAdd.UseVisualStyleBackColor = true;
             // 
             // bDelete
             // 
-            bDelete.Location = new Point(618, 449);
-            bDelete.Name = "bDelete";
-            bDelete.Size = new Size(75, 23);
-            bDelete.TabIndex = 22;
-            bDelete.Text = "Delete";
-            bDelete.UseVisualStyleBackColor = true;
+            this.bDelete.Location = new System.Drawing.Point(530, 389);
+            this.bDelete.Name = "bDelete";
+            this.bDelete.Size = new System.Drawing.Size(64, 20);
+            this.bDelete.TabIndex = 22;
+            this.bDelete.Text = "Delete";
+            this.bDelete.UseVisualStyleBackColor = true;
             // 
             // bUpdate
             // 
-            bUpdate.Location = new Point(537, 449);
-            bUpdate.Name = "bUpdate";
-            bUpdate.Size = new Size(75, 23);
-            bUpdate.TabIndex = 21;
-            bUpdate.Text = "Update";
-            bUpdate.UseVisualStyleBackColor = true;
+            this.bUpdate.Location = new System.Drawing.Point(460, 389);
+            this.bUpdate.Name = "bUpdate";
+            this.bUpdate.Size = new System.Drawing.Size(64, 20);
+            this.bUpdate.TabIndex = 21;
+            this.bUpdate.Text = "Update";
+            this.bUpdate.UseVisualStyleBackColor = true;
             // 
             // binsert
             // 
-            binsert.Location = new Point(456, 449);
-            binsert.Name = "binsert";
-            binsert.Size = new Size(75, 23);
-            binsert.TabIndex = 20;
-            binsert.Text = "Insert";
-            binsert.UseVisualStyleBackColor = true;
+            this.binsert.Location = new System.Drawing.Point(391, 389);
+            this.binsert.Name = "binsert";
+            this.binsert.Size = new System.Drawing.Size(64, 20);
+            this.binsert.TabIndex = 20;
+            this.binsert.Text = "Insert";
+            this.binsert.UseVisualStyleBackColor = true;
             // 
             // bNew
             // 
-            bNew.Location = new Point(213, 449);
-            bNew.Name = "bNew";
-            bNew.Size = new Size(75, 23);
-            bNew.TabIndex = 19;
-            bNew.Text = "New";
-            bNew.UseVisualStyleBackColor = true;
-            bNew.Click += bNew_Click;
+            this.bNew.Location = new System.Drawing.Point(183, 389);
+            this.bNew.Name = "bNew";
+            this.bNew.Size = new System.Drawing.Size(64, 20);
+            this.bNew.TabIndex = 19;
+            this.bNew.Text = "New";
+            this.bNew.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(212, 181);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(561, 225);
-            dataGridView1.TabIndex = 18;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(182, 157);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(481, 195);
+            this.dataGridView1.TabIndex = 18;
             // 
             // bShow
             // 
-            bShow.Location = new Point(375, 449);
-            bShow.Name = "bShow";
-            bShow.Size = new Size(75, 23);
-            bShow.TabIndex = 25;
-            bShow.Text = "Show";
-            bShow.UseVisualStyleBackColor = true;
-            bShow.Click += bShow_Click;
+            this.bShow.Location = new System.Drawing.Point(321, 389);
+            this.bShow.Name = "bShow";
+            this.bShow.Size = new System.Drawing.Size(64, 20);
+            this.bShow.TabIndex = 25;
+            this.bShow.Text = "Show";
+            this.bShow.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(245, 53);
-            label1.Name = "label1";
-            label1.Size = new Size(25, 15);
-            label1.TabIndex = 26;
-            label1.Text = "รหัส";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(155, 46);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(26, 13);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "รหัส";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(212, 89);
-            label2.Name = "label2";
-            label2.Size = new Size(58, 15);
-            label2.TabIndex = 27;
-            label2.Text = "ประเภทสัตว์";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(155, 77);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "ประเภทสัตว์";
             // 
-            // PetType
+            // PetTypeName
             // 
-            PetType.Location = new Point(276, 81);
-            PetType.Name = "PetType";
-            PetType.Size = new Size(182, 23);
-            PetType.TabIndex = 29;
+            this.PetTypeName.Location = new System.Drawing.Point(237, 70);
+            this.PetTypeName.Name = "PetTypeName";
+            this.PetTypeName.Size = new System.Drawing.Size(157, 20);
+            this.PetTypeName.TabIndex = 29;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(204, 127);
-            label3.Name = "label3";
-            label3.Size = new Size(66, 15);
-            label3.TabIndex = 30;
-            label3.Text = "พันธุ์สัตว์เลิ้ยง";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(155, 110);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(71, 13);
+            this.label3.TabIndex = 30;
+            this.label3.Text = "พันธุ์สัตว์เลิ้ยง";
             // 
-            // Petbreeds
+            // PetBreedID
             // 
-            Petbreeds.Location = new Point(276, 119);
-            Petbreeds.Name = "Petbreeds";
-            Petbreeds.Size = new Size(182, 23);
-            Petbreeds.TabIndex = 31;
+            this.PetBreedID.Location = new System.Drawing.Point(237, 103);
+            this.PetBreedID.Name = "PetBreedID";
+            this.PetBreedID.Size = new System.Drawing.Size(157, 20);
+            this.PetBreedID.TabIndex = 31;
             // 
-            // comboBox1
+            // PetTypeID
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(276, 45);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 32;
+            this.PetTypeID.Location = new System.Drawing.Point(237, 39);
+            this.PetTypeID.Name = "PetTypeID";
+            this.PetTypeID.Size = new System.Drawing.Size(157, 20);
+            this.PetTypeID.TabIndex = 32;
+            this.PetTypeID.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PetTypeID_KeyDown);
             // 
             // TypePet
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(929, 562);
-            Controls.Add(comboBox1);
-            Controls.Add(Petbreeds);
-            Controls.Add(label3);
-            Controls.Add(PetType);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(bShow);
-            Controls.Add(bClose);
-            Controls.Add(bAdd);
-            Controls.Add(bDelete);
-            Controls.Add(bUpdate);
-            Controls.Add(binsert);
-            Controls.Add(bNew);
-            Controls.Add(dataGridView1);
-            Name = "TypePet";
-            Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(796, 487);
+            this.Controls.Add(this.PetTypeID);
+            this.Controls.Add(this.PetBreedID);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.PetTypeName);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.bShow);
+            this.Controls.Add(this.bClose);
+            this.Controls.Add(this.bAdd);
+            this.Controls.Add(this.bDelete);
+            this.Controls.Add(this.bUpdate);
+            this.Controls.Add(this.binsert);
+            this.Controls.Add(this.bNew);
+            this.Controls.Add(this.dataGridView1);
+            this.Name = "TypePet";
+            this.Text = "Form2";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -208,9 +212,10 @@
         private Label label1;
         private Label label2;
         private TextBox textBox1;
-        private TextBox PetType;
+        private TextBox PetTypeName;
         private Label label3;
-        private TextBox Petbreeds;
-        private ComboBox comboBox1;
+        private TextBox PetBreedID;
+        private TextBox PetTypeID;
+        private BindingSource bindingSource1;
     }
 }

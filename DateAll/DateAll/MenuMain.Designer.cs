@@ -1,4 +1,7 @@
-﻿namespace DateAll
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace DateAll
 {
     partial class MenuMain
     {
