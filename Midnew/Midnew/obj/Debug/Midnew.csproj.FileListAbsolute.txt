@@ -1,0 +1,9 @@
+D:\Midnew\Midnew\bin\Debug\Midnew.exe.config
+D:\Midnew\Midnew\bin\Debug\Midnew.exe
+D:\Midnew\Midnew\bin\Debug\Midnew.pdb
+D:\Midnew\Midnew\obj\Debug\Midnew.csproj.AssemblyReference.cache
+D:\Midnew\Midnew\obj\Debug\Midnew.Properties.Resources.resources
+D:\Midnew\Midnew\obj\Debug\Midnew.csproj.GenerateResource.cache
+D:\Midnew\Midnew\obj\Debug\Midnew.csproj.CoreCompileInputs.cache
+D:\Midnew\Midnew\obj\Debug\Midnew.exe
+D:\Midnew\Midnew\obj\Debug\Midnew.pdb
