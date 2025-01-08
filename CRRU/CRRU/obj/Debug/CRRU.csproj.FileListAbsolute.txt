@@ -1,0 +1,11 @@
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\bin\Debug\CRRU.exe.config
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\bin\Debug\CRRU.exe
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\bin\Debug\CRRU.pdb
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\obj\Debug\CRRU.csproj.AssemblyReference.cache
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\obj\Debug\CRRU.CRRU.resources
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\obj\Debug\CRRU.Properties.Resources.resources
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\obj\Debug\CRRU.csproj.GenerateResource.cache
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\obj\Debug\CRRU.csproj.CoreCompileInputs.cache
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\obj\Debug\CRRU.exe
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\obj\Debug\CRRU.pdb
+F:\ปี2 เทอม 2\โปรแกรม2\CRRU\CRRU\obj\Debug\CRRU.inputBox.resources
